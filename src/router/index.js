@@ -18,7 +18,7 @@ const routes = [
   },
   {
     path: "/",
-    component: login,
+    redirect: "/login",
     hidden: true
   }
 ];
